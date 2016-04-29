@@ -1,5 +1,3 @@
-[![Join the chat at https://gitter.im/fusionalliance/angular2-npm-starter](https://badges.gitter.im/fusionalliance/angular2-npm-starter.svg)](https://gitter.im/fusionalliance/angular2-npm-starter?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Dependencies](https://david-dm.org/fusionalliance/angular2-npm-starter.svg)](https://david-dm.org/fusionalliance/angular2-npm-starter) [![Build Status](https://travis-ci.org/fusionalliance/angular2-npm-starter.svg?branch=master)](https://travis-ci.org/fusionalliance/angular2-npm-starter) [![Issue Stats](http://issuestats.com/github/fusionalliance/angular2-npm-starter/badge/pr)](http://issuestats.com/github/fusionalliance/angular2-npm-starter) [![Issue Stats](http://issuestats.com/github/fusionalliance/angular2-npm-starter/badge/issue)](http://issuestats.com/github/fusionalliance/angular2-npm-starter)
-
 # Angular2 Starter
 
 Angular2 sandbox project using NPM scripts as the build tool.
