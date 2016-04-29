@@ -1,9 +1,8 @@
 [![Join the chat at https://gitter.im/fusionalliance/angular2-npm-starter](https://badges.gitter.im/fusionalliance/angular2-npm-starter.svg)](https://gitter.im/fusionalliance/angular2-npm-starter?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Dependencies](https://david-dm.org/fusionalliance/angular2-npm-starter.svg)](https://david-dm.org/fusionalliance/angular2-npm-starter) [![Build Status](https://travis-ci.org/fusionalliance/angular2-npm-starter.svg?branch=master)](https://travis-ci.org/fusionalliance/angular2-npm-starter) [![Issue Stats](http://issuestats.com/github/fusionalliance/angular2-npm-starter/badge/pr)](http://issuestats.com/github/fusionalliance/angular2-npm-starter) [![Issue Stats](http://issuestats.com/github/fusionalliance/angular2-npm-starter/badge/issue)](http://issuestats.com/github/fusionalliance/angular2-npm-starter)
 
-# Angular2 NPM Starter
-> by Fusion Alliance - @fusionalliance
+# Angular2 Starter
 
-Angular2 project using NPM scripts as the build tool.
+Angular2 sandbox project using NPM scripts as the build tool.
 
 ## Getting Started
 
@@ -21,10 +20,7 @@ npm start
 ```
 ## Contributors
 
-[![Fusion Alliance Logo](https://avatars0.githubusercontent.com/u/1154219?v=3&u=e1451e6a65343331369d53a2b6e0c7046c2cc810&s=60)](https://github.com/FusionAlliance)
-
 + [Allen Buckley](https://github.com/allensb) (Author)
-+ [Ray Clannan](https://github.com/rclanan) (Contributor)
 
 ## LICENSE
 
