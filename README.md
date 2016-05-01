@@ -1,4 +1,4 @@
-# Angular2 Starter
+# Angular2 Sandbox
 
 Angular2 sandbox project using NPM scripts as the build tool.
 

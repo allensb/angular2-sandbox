@@ -2,13 +2,13 @@ import {Component} from 'angular2/core';
 
 @Component({
     selector: 'starter-app',
-    templateUrl: 'src/app/students.html',
+    templateUrl: 'src/app/home.html',
     directives: [],
     pipes: []
 })
 
 export class StarterApp {
-    students: [];
+    students: any[];
 
     constructor() {
         this.init();
@@ -23,7 +23,7 @@ export class StarterApp {
         return this.students;
     }
 
-    this.addStudent = function (name) {
+    addStudent (name) {
         this.students.push(name);
     }
 }

@@ -24,7 +24,7 @@
     "lite": "lite-server",
     "movehtml": "mkdir -p dist/app && cp src/app/*.html dist/app/",
     "movecss": "mkdir -p dist/assets/css && cp src/assets/css/* dist/assets/css",
-    "build": "echo '=> building' npm run movehtml && npm run movecss",
+    "build": "echo '=> building' && npm run movehtml && npm run movecss",
     "typings": "typings install"
   },
   "dependencies": {
