@@ -1,0 +1,14 @@
+<div>
+    <h1>Players</h1>
+    <ul>
+        <li *ngFor="#player of players">
+            {{player.name}}
+        </li>
+    </ul>
+    <br />
+    Search Player <input type="text" class="form-control" [(ngModel)]="name" />
+    <button (click)="search(name)">Add</button>
+
+    Add Player <input type="text" class="form-control" [(ngModel)]="name" />
+    <button (click)="add(name)">Add</button>
+</div>

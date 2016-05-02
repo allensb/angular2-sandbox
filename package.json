@@ -22,9 +22,9 @@
     "tsc:w": "npm run tsc -w",
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
     "lite": "lite-server",
-    "movehtml": "mkdir -p dist/app && cp src/app/*.html dist/app/",
-    "movecss": "mkdir -p dist/assets/css && cp src/assets/css/* dist/assets/css",
-    "build": "echo '=> building' && npm run movehtml && npm run movecss",
+    "movehtml": "mkdir -p dist/app && cp -R src/app/**/*.html dist/app",
+    "moveassets": "mkdir -p dist/assets && cp -R src/assets/* dist/assets",
+    "build": "echo '=> building' && npm run movehtml && npm run moveassets",
     "typings": "typings install"
   },
   "dependencies": {

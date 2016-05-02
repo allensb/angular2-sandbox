@@ -2,28 +2,32 @@ import {Component} from 'angular2/core';
 
 @Component({
     selector: 'starter-app',
-    templateUrl: 'src/app/home.html',
+    templateUrl: 'src/app/home/home.html',
     directives: [],
     pipes: []
 })
 
 export class StarterApp {
-    students: any[];
+    players: any[];
 
     constructor() {
         this.init();
     }
 
     init() {
-        this.students = [
+        this.players = [
             {name: 'Josh'},
             {name: 'Chris'},
             {name: 'Sarah'}];
 
-        return this.students;
+        return this.players;
     }
 
-    addStudent (name) {
-        this.students.push(name);
+    add (name) {
+        this.players.push(name);
+    }
+
+    search (name) {
+        this.players.push(name);
     }
 }
